@@ -2283,3 +2283,4 @@ Received Import Request.
 Start importing Assets/Modern tiles_Free/Interiors_free/16x16/Interiors_free_16x16.png using Guid(ee597f015aa2a244eaf2f946fe513f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe85df6a4631de12d5196ade6ca09420') in 0.472785 seconds 
   Import took 0.477341 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
