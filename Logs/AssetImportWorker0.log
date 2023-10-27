@@ -1297,3 +1297,4 @@ Received Import Request.
 Start importing Assets/Modern tiles_Free/Interiors_free/48x48/Room_Builder_free_48x48.png using Guid(9acfcc9a5e7f2ca4caaae7f46bfd63a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acb2a48d4c99b4b25e314b12eac2c02') in 0.012966 seconds 
   Import took 0.015909 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
