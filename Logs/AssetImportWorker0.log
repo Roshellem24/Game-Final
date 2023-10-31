@@ -1,1300 +1,587 @@
-Unity Editor version:    2020.3.27f1 (e759542391ea)
-Branch:                  2020.3/release
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 11.6.8 (Build 20G730)
-Darwin version:          20.6.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 5996 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity 2020.3.27f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/game5/Documents/GitHub/Game-Final
+C:/Users/roshe/Documents/Game-Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60402
-Successfully changed project path to: /Users/game5/Documents/GitHub/Game-Final
-Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game5/Documents/GitHub/Game-Final
+61346
+Successfully changed project path to: C:/Users/roshe/Documents/Game-Final
+C:/Users/roshe/Documents/Game-Final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
-[Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/game5/Documents/GitHub/Game-Final/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/roshe/Documents/Game-Final/Assets
 GfxDevice: creating device client; threaded=0
-2023-10-27 13:30:44.711 Unity[16803:611363] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2023-10-27 13:30:44.711 Unity[16803:611363] Metal devices available: 1
-2023-10-27 13:30:44.711 Unity[16803:611363] 0: AMD Radeon Pro 5500 XT (high power)
-2023-10-27 13:30:44.712 Unity[16803:611363] Using device AMD Radeon Pro 5500 XT (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   
+    VRAM:     3952 MB
+    Driver:   31.0.15.3197
 Initialize mono
-Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56803
+Mono path[0] = 'C:/Program Files/Unity 2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000467 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 50.69 ms, found 3 plugins.
+Register platform support module: C:/Program Files/Unity 2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005408 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.536 seconds
+- Completed reload, in  0.873 seconds
 Domain Reload Profiling:
-	ReloadAssembly (537ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (435ms)
-			LoadAssemblies (37ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (176ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003779 seconds.
+Registered in 0.021310 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 50.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
+- Completed reload, in  1.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (825ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1280ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Validating Project structure ... 0.014429 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.026678 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Initializing Unity extensions:
-========================================================================
-Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.3 MB.
-System memory in use after: 216.4 MB.
-
-Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 2678.
-Total: 2.770893 ms (FindLiveObjects: 0.147367 ms CreateObjectMapping: 0.072490 ms MarkObjects: 2.125245 ms  DeleteObjects: 0.425209 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png
-  artifactKey: Guid(7e42ee86033c62249a657da3c7a093a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png using Guid(7e42ee86033c62249a657da3c7a093a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f589b79b4911b6d6c06266512852a099') in 0.773570 seconds 
-  Import took 0.780030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.977010 seconds.
-  path: Assets/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png
-  artifactKey: Guid(7e42ee86033c62249a657da3c7a093a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png using Guid(7e42ee86033c62249a657da3c7a093a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03684e0fbc48101e9ec526ba5adb71c8') in 0.028693 seconds 
-  Import took 0.032392 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002094 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Domain Reload Profiling:
-	ReloadAssembly (947ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (786ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (521ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.6 MB.
-System memory in use after: 220.5 MB.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2689.
-Total: 2.355224 ms (FindLiveObjects: 0.138406 ms CreateObjectMapping: 0.069933 ms MarkObjects: 2.070398 ms  DeleteObjects: 0.075903 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2786.
+Total: 5.001700 ms (FindLiveObjects: 0.297700 ms CreateObjectMapping: 0.102700 ms MarkObjects: 4.423800 ms  DeleteObjects: 0.176200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.566369 seconds.
-  path: Assets/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png
-  artifactKey: Guid(7e42ee86033c62249a657da3c7a093a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png using Guid(7e42ee86033c62249a657da3c7a093a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bfb481f6ce27780105578568b3c60d') in 0.044747 seconds 
-  Import took 0.047473 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(5ef62821786bbcb43a52be50be7516c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(5ef62821786bbcb43a52be50be7516c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06233f3afeaf9421db301b7b24d027d') in 0.018071 seconds 
+  Import took 0.022941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.142425 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff141a6167093e871393a8a596af099') in 0.061425 seconds 
+  Import took 0.067127 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005847 seconds.
+Registered in 0.012065 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:220)
-Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:205)
-Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:261)
-Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineColliderPrefs.cs:61)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs line 205]
-
-Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:220)
-Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:205)
-Cinemachine.Editor.CinemachineSettings:OnPackageLoadedInEditor () (at Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs:246)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154)
-
-[Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs line 205]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  1.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1432ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (787ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (363ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (289ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (453ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.1 MB.
-System memory in use after: 227.2 MB.
+System memory in use before: 104.2 MB.
+System memory in use after: 104.2 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2838.
-Total: 2.426840 ms (FindLiveObjects: 0.157829 ms CreateObjectMapping: 0.079609 ms MarkObjects: 2.097353 ms  DeleteObjects: 0.091443 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2789.
+Total: 5.846300 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.323900 ms MarkObjects: 4.949700 ms  DeleteObjects: 0.170100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 237.970301 seconds.
-  path: Assets/Animation/Player.anim
-  artifactKey: Guid(122d8fa9d9a024d559fa40d62a39b092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player.anim using Guid(122d8fa9d9a024d559fa40d62a39b092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9825d3e7324d2ea91193dc432740350f') in 0.777677 seconds 
-  Import took 0.783703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.079465 seconds.
-  path: Assets/Modern tiles_Free/Interiors_free/32x32/Interiors_free_32x32.png
-  artifactKey: Guid(30377d90fecfc314694469eb11c4dbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Interiors_free/32x32/Interiors_free_32x32.png using Guid(30377d90fecfc314694469eb11c4dbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e139b340daf36d17b35e9eb16d133df2') in 0.034436 seconds 
-  Import took 0.038497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Modern tiles_Free/Interiors_free/32x32/Room_Builder_free_32x32.png
-  artifactKey: Guid(004805e83baea2646bef094f9080c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Interiors_free/32x32/Room_Builder_free_32x32.png using Guid(004805e83baea2646bef094f9080c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf92779793e669fe5ac92cb03a049ce') in 0.010134 seconds 
-  Import took 0.013053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.545085 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_0.asset
-  artifactKey: Guid(f856e1e60f36d634a9db0384f934ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_0.asset using Guid(f856e1e60f36d634a9db0384f934ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb525380015216991f299ec3a6437cb') in 0.245032 seconds 
-  Import took 0.250785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_65.asset
-  artifactKey: Guid(0aa5ea61adcbb0a4da4a7047a3fa996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_65.asset using Guid(0aa5ea61adcbb0a4da4a7047a3fa996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88faeab187bd8212f46a0f1a4f2cbc16') in 0.008669 seconds 
-  Import took 0.011740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_77.asset
-  artifactKey: Guid(b7749fc1bdfeb8342997826347b28c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_77.asset using Guid(b7749fc1bdfeb8342997826347b28c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d49ce36aabc4bca7a1f211eaa75b8de') in 0.008194 seconds 
-  Import took 0.011079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_24.asset
-  artifactKey: Guid(eaef9b40676c1bc478601954f574974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_24.asset using Guid(eaef9b40676c1bc478601954f574974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fec1f4933bd0ad746fcf5ee444b1e9') in 0.007552 seconds 
-  Import took 0.010512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_31.asset
-  artifactKey: Guid(485082e80e2d1e14ebd949487df4e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_31.asset using Guid(485082e80e2d1e14ebd949487df4e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd995b6795182101c6f24d9064724a311') in 0.008208 seconds 
-  Import took 0.011955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_5.asset
-  artifactKey: Guid(18dfff2c17d69b5418fddf6a08e26a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_5.asset using Guid(18dfff2c17d69b5418fddf6a08e26a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bb1dc63edce9fe43173e1a892ac89f') in 0.007519 seconds 
-  Import took 0.010546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_88.asset
-  artifactKey: Guid(a0f180c53a7620e42a4772ad290a11b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_88.asset using Guid(a0f180c53a7620e42a4772ad290a11b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161542c58fd7f1f2fe8f31cfdac555f7') in 0.007289 seconds 
-  Import took 0.010379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_69.asset
-  artifactKey: Guid(9434351249d350342871f0a7ad2e11c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_69.asset using Guid(9434351249d350342871f0a7ad2e11c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3041de858eaa178f5428abdcf39ad2') in 0.007723 seconds 
-  Import took 0.010937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_106.asset
-  artifactKey: Guid(75e8705012f019145b5674a4e9362ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_106.asset using Guid(75e8705012f019145b5674a4e9362ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bf499d6a0a569fdde92155c3a220ff') in 0.007349 seconds 
-  Import took 0.010626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_51.asset
-  artifactKey: Guid(cf4b8eaf7f235b84eb0e63baa9a3533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_51.asset using Guid(cf4b8eaf7f235b84eb0e63baa9a3533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054e0ac1ab46c061a7ce4a70f3a983df') in 0.007703 seconds 
-  Import took 0.011057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_20.asset
-  artifactKey: Guid(5288d3843b3dd404bbb4ec64e6d38d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_20.asset using Guid(5288d3843b3dd404bbb4ec64e6d38d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8421a7fda3f6dba861668109a1275528') in 0.009040 seconds 
-  Import took 0.012108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_2.asset
-  artifactKey: Guid(ec713f01f375a4b48894dd557ad3568a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_2.asset using Guid(ec713f01f375a4b48894dd557ad3568a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d4bae4e74197a909fba2e13bb34253') in 0.008356 seconds 
-  Import took 0.011554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_30.asset
-  artifactKey: Guid(7def3edfba895b14983f29b197ea78dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_30.asset using Guid(7def3edfba895b14983f29b197ea78dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207512db976228f1c72da5ca089c5788') in 0.007716 seconds 
-  Import took 0.010441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_73.asset
-  artifactKey: Guid(40c22a59cf43d7e4191373969ce4e5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_73.asset using Guid(40c22a59cf43d7e4191373969ce4e5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26ff76a8dbe9a29b557665ce1bd1c8c') in 0.007900 seconds 
-  Import took 0.010778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_86.asset
-  artifactKey: Guid(914e1c01169dc594886d23b65aea799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_86.asset using Guid(914e1c01169dc594886d23b65aea799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84769f172e3802685aa8734cd143f87') in 0.008326 seconds 
-  Import took 0.011471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_89.asset
-  artifactKey: Guid(23bb464c2b9cef94ba266c259d68365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_89.asset using Guid(23bb464c2b9cef94ba266c259d68365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b99691092817834ebe71e5bc14d0eaf') in 0.007704 seconds 
-  Import took 0.010357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_103.asset
-  artifactKey: Guid(c43af94d866e1b844a892e8a902e9eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_103.asset using Guid(c43af94d866e1b844a892e8a902e9eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee5aaad23edaa7ea5842b47d330a6c9') in 0.007989 seconds 
-  Import took 0.010630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_82.asset
-  artifactKey: Guid(edb23f0637d63bf4aa21f0dbf1f08ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_82.asset using Guid(edb23f0637d63bf4aa21f0dbf1f08ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7459915a3436cf2fe19ff3ff7d601591') in 0.009117 seconds 
-  Import took 0.012091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_9.asset
-  artifactKey: Guid(a9fc8a91c36dfaf43a86d021b0d6923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_9.asset using Guid(a9fc8a91c36dfaf43a86d021b0d6923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5145a660b2951ab6844eef8c7d4552') in 0.008247 seconds 
-  Import took 0.011041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_67.asset
-  artifactKey: Guid(692b577330ee7ca488eb8b9b87be9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_67.asset using Guid(692b577330ee7ca488eb8b9b87be9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a784a40dc4345c8f94628144da6bf5bf') in 0.007909 seconds 
-  Import took 0.010910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_28.asset
-  artifactKey: Guid(305ee65219191e8449ce0f27b85ded49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_28.asset using Guid(305ee65219191e8449ce0f27b85ded49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6951349401963dcaa490c3c948e12a4f') in 0.008167 seconds 
-  Import took 0.011060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_18.asset
-  artifactKey: Guid(25fc2bb801832d24982184bf599e82d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_18.asset using Guid(25fc2bb801832d24982184bf599e82d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e4bf0327c9938c7343cb1a37ecb358') in 0.007757 seconds 
-  Import took 0.010430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_107.asset
-  artifactKey: Guid(4495afc48c770f04eb045f85069a6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_107.asset using Guid(4495afc48c770f04eb045f85069a6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab04ad51a397a04097e58bdb8205676') in 0.007929 seconds 
-  Import took 0.010695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_95.asset
-  artifactKey: Guid(8701c56cd45c1fa44bcd9e02457752f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_95.asset using Guid(8701c56cd45c1fa44bcd9e02457752f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddc03c9aceb2ea93aeca7804059b2b9') in 0.007857 seconds 
-  Import took 0.011186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_1.asset
-  artifactKey: Guid(af33d6fe5af13024c975d809cd284944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_1.asset using Guid(af33d6fe5af13024c975d809cd284944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e784f3d53d2c888e1fc7104271edb8') in 0.007416 seconds 
-  Import took 0.010096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_22.asset
-  artifactKey: Guid(983846df5a8ed2e41951660b0e616c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_22.asset using Guid(983846df5a8ed2e41951660b0e616c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5039d2b9b48678ae1bff80ee50c958') in 0.007718 seconds 
-  Import took 0.010592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_33.asset
-  artifactKey: Guid(ff0bf82cc59a096449fd48da73147c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_33.asset using Guid(ff0bf82cc59a096449fd48da73147c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48ce589eb777f6ecc15ba16090e20c5') in 0.008432 seconds 
-  Import took 0.011348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_93.asset
-  artifactKey: Guid(bc83dd85176f22d4d88dc482416b4169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_93.asset using Guid(bc83dd85176f22d4d88dc482416b4169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b210e5a45795b93bde5cb2af79a62fec') in 0.007517 seconds 
-  Import took 0.010517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_74.asset
-  artifactKey: Guid(01e4fc1bd3ea7374595e2438bee43528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_74.asset using Guid(01e4fc1bd3ea7374595e2438bee43528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c57688bf0e87db114cd1feb0fe5ae4') in 0.008693 seconds 
-  Import took 0.011747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_79.asset
-  artifactKey: Guid(0f66516b6b25ca64f964e6f061eff9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_79.asset using Guid(0f66516b6b25ca64f964e6f061eff9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2549034b05d8d7590fe33730d26b42bd') in 0.008186 seconds 
-  Import took 0.011215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_16.asset
-  artifactKey: Guid(279b60970b6cd8d459c2fd54ba3938a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_16.asset using Guid(279b60970b6cd8d459c2fd54ba3938a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5971736332eb7a5457d4a5e4060808') in 0.007411 seconds 
-  Import took 0.010249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_99.asset
-  artifactKey: Guid(3625d6279548a934b89b315af6d33aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_99.asset using Guid(3625d6279548a934b89b315af6d33aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d045fe499fd3887d75f671c50678fe4') in 0.007670 seconds 
-  Import took 0.011106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_17.asset
-  artifactKey: Guid(3af6e34a53fb91440aad2d3b6920817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_17.asset using Guid(3af6e34a53fb91440aad2d3b6920817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb2c64d68c35addc49dbfbad0fd46a6') in 0.008089 seconds 
-  Import took 0.010868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_13.asset
-  artifactKey: Guid(8441e4b95241b9f428c92c79b8e85c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_13.asset using Guid(8441e4b95241b9f428c92c79b8e85c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a69eaf7e24efc7f03dc4201cad2eda') in 0.008546 seconds 
-  Import took 0.011308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_29.asset
-  artifactKey: Guid(9d2109f4bc2ea584393c722e4ba9d3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_29.asset using Guid(9d2109f4bc2ea584393c722e4ba9d3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a30d82ee6950169bc915e5ecc6ac6b0') in 0.008388 seconds 
-  Import took 0.011195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_4.asset
-  artifactKey: Guid(20702dbae9b51714b9abe49d07ee3de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_4.asset using Guid(20702dbae9b51714b9abe49d07ee3de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c870f2267bf85e22c6cd0002ca9894b7') in 0.008143 seconds 
-  Import took 0.011081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_36.asset
-  artifactKey: Guid(c09e56bd27b552e469081f140abfd712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_36.asset using Guid(c09e56bd27b552e469081f140abfd712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb95ba11d68e3257ac6590dfd8bf22a7') in 0.007572 seconds 
-  Import took 0.010407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_40.asset
-  artifactKey: Guid(536a51817797b9d46b9ec6c686425237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_40.asset using Guid(536a51817797b9d46b9ec6c686425237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4844dc31d907340c95fa4274eb673423') in 0.007644 seconds 
-  Import took 0.010424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_48.asset
-  artifactKey: Guid(12c576da5cb9b4340b1826b6dc15097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_48.asset using Guid(12c576da5cb9b4340b1826b6dc15097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c434e5774bab1c72c0ad2103509a07a1') in 0.008376 seconds 
-  Import took 0.011102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_66.asset
-  artifactKey: Guid(c0d49ded5d726c0439dff2c8d7aea3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_66.asset using Guid(c0d49ded5d726c0439dff2c8d7aea3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffe0d8911cd103cc4929bcae32af291') in 0.007758 seconds 
-  Import took 0.010674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_57.asset
-  artifactKey: Guid(03aeaa10378636c4ea96fbed530cd709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_57.asset using Guid(03aeaa10378636c4ea96fbed530cd709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6708fd4dd52285a5e18b801842fdbd3f') in 0.008079 seconds 
-  Import took 0.011422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_112.asset
-  artifactKey: Guid(05045272d751b9c4dbef58dad6ba75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_112.asset using Guid(05045272d751b9c4dbef58dad6ba75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07927c62f0332b09e1a8624228505cb1') in 0.008856 seconds 
-  Import took 0.012013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_70.asset
-  artifactKey: Guid(eb01276da1bd8d24e9b2c01cfef3b9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_70.asset using Guid(eb01276da1bd8d24e9b2c01cfef3b9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e428b1a39464a6f24295623f17610bec') in 0.007520 seconds 
-  Import took 0.010399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_68.asset
-  artifactKey: Guid(6db328d16370a50419cc5f683b848143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_68.asset using Guid(6db328d16370a50419cc5f683b848143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c952bcb76e7ea1d08b881b9ad494e575') in 0.007664 seconds 
-  Import took 0.010328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_56.asset
-  artifactKey: Guid(645081d868a676d46b9828d9cca47741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_56.asset using Guid(645081d868a676d46b9828d9cca47741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9524c21d7f7d88fb50455756c3b6c18') in 0.008098 seconds 
-  Import took 0.011182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_11.asset
-  artifactKey: Guid(0f28e0da419427148bef1cf0cad56c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_11.asset using Guid(0f28e0da419427148bef1cf0cad56c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a626adb6745ccb53363b72f66356752') in 0.007532 seconds 
-  Import took 0.010765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_94.asset
-  artifactKey: Guid(d61b7935951cecf428c785a9f8aa9527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_94.asset using Guid(d61b7935951cecf428c785a9f8aa9527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa9adce03a83708546df75467532de2') in 0.007965 seconds 
-  Import took 0.011046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_85.asset
-  artifactKey: Guid(7022a8a295332b645ada21e81abda4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_85.asset using Guid(7022a8a295332b645ada21e81abda4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688769ee86bf4e756c82a1f5663a4a17') in 0.008373 seconds 
-  Import took 0.011560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_15.asset
-  artifactKey: Guid(187cd3abb9d847145ab7463a65067770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_15.asset using Guid(187cd3abb9d847145ab7463a65067770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fdd9f7bc28fb17bafc919f98ee3ee3') in 0.007956 seconds 
-  Import took 0.011271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_110.asset
-  artifactKey: Guid(8eeb5b71173ad334fb546a5a8717ddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_110.asset using Guid(8eeb5b71173ad334fb546a5a8717ddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8680e489045d72615f043a6ebebbe40d') in 0.009186 seconds 
-  Import took 0.012485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_42.asset
-  artifactKey: Guid(d3a44f8853aa0af44ae3cca55394a1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_42.asset using Guid(d3a44f8853aa0af44ae3cca55394a1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2de64dea586eb37610c91adb1897ba') in 0.008012 seconds 
-  Import took 0.010956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_38.asset
-  artifactKey: Guid(35d908b0e99f7854ba260c46b1022b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_38.asset using Guid(35d908b0e99f7854ba260c46b1022b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56e1bad4e2750d5c8696725b96335f') in 0.008105 seconds 
-  Import took 0.011113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_92.asset
-  artifactKey: Guid(4d3862377b91f984181376a8f5bf2a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_92.asset using Guid(4d3862377b91f984181376a8f5bf2a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c11d058890b854f19b1864323419c80') in 0.007845 seconds 
-  Import took 0.010899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_35.asset
-  artifactKey: Guid(0dab644bc31567c488c41d8bd2e72907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_35.asset using Guid(0dab644bc31567c488c41d8bd2e72907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0412cd3d0ab85469228641f7625e9d') in 0.007648 seconds 
-  Import took 0.011046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_59.asset
-  artifactKey: Guid(f2c0bbad8d5ddab4388fcfbdb99aa6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_59.asset using Guid(f2c0bbad8d5ddab4388fcfbdb99aa6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cd285b6bf967f0faf7ba1e4d9fc208') in 0.007732 seconds 
-  Import took 0.010425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_71.asset
-  artifactKey: Guid(e901a172a9c872d4486fb5afc449bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_71.asset using Guid(e901a172a9c872d4486fb5afc449bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa81de40999e5373225e3f994314d4fa') in 0.008310 seconds 
-  Import took 0.011896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_55.asset
-  artifactKey: Guid(990b6c7d546108b4a85d2681f2b10e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_55.asset using Guid(990b6c7d546108b4a85d2681f2b10e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c45524d62ea69d0950ba69e5724268') in 0.008217 seconds 
-  Import took 0.011026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_14.asset
-  artifactKey: Guid(d25a03b31cf4be4459ce45928412fc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_14.asset using Guid(d25a03b31cf4be4459ce45928412fc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7a4585b88934748d2c58936c587f6b') in 0.008053 seconds 
-  Import took 0.010931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_72.asset
-  artifactKey: Guid(fbc85e63c82a1f7428ff3b09922a37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_72.asset using Guid(fbc85e63c82a1f7428ff3b09922a37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b1b9247ceb4111a8f184b635ab75a7') in 0.007745 seconds 
-  Import took 0.011006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_41.asset
-  artifactKey: Guid(8ad2c319187f7624fb975c22a2e1e356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_41.asset using Guid(8ad2c319187f7624fb975c22a2e1e356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14564890e660eb35adb89763043eb26') in 0.007165 seconds 
-  Import took 0.010269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_32.asset
-  artifactKey: Guid(5d39958a5b1bc2344bbd5e28ac817c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_32.asset using Guid(5d39958a5b1bc2344bbd5e28ac817c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ef37e3d7c730289fccf278b089254c') in 0.007513 seconds 
-  Import took 0.010125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_44.asset
-  artifactKey: Guid(071a99065eafe7e40a8d0a0f2a9d1107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_44.asset using Guid(071a99065eafe7e40a8d0a0f2a9d1107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de22d69ac308cef5b98025bee1a2461') in 0.007924 seconds 
-  Import took 0.011118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_76.asset
-  artifactKey: Guid(c164201e95d94c5448ac7070470a96de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_76.asset using Guid(c164201e95d94c5448ac7070470a96de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9b5ae5b4cb450ce31d77f1273c21d8') in 0.008006 seconds 
-  Import took 0.010655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_109.asset
-  artifactKey: Guid(f9b5a6326803e13418a59d4cac47b9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_109.asset using Guid(f9b5a6326803e13418a59d4cac47b9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e05774db537241daee008239aae3fc') in 0.007422 seconds 
-  Import took 0.010214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_53.asset
-  artifactKey: Guid(e34a3507790a8e94ea1f9b8020424d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_53.asset using Guid(e34a3507790a8e94ea1f9b8020424d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638842d3e33c2a4834104e2895cf0539') in 0.008867 seconds 
-  Import took 0.011665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_102.asset
-  artifactKey: Guid(792623128cf0b69429bb72b1a603f8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_102.asset using Guid(792623128cf0b69429bb72b1a603f8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735660057eae672ef20fe15038401020') in 0.008304 seconds 
-  Import took 0.010984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_37.asset
-  artifactKey: Guid(ca5eabc111ec3584b9f43c3046bd9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_37.asset using Guid(ca5eabc111ec3584b9f43c3046bd9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046b6160ef65013114c2761fc7f4f0bd') in 0.008153 seconds 
-  Import took 0.011263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_63.asset
-  artifactKey: Guid(ad691eeacff4e964e98e62f78150c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_63.asset using Guid(ad691eeacff4e964e98e62f78150c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574d6cf6e5f30ea245f04951557d274b') in 0.008381 seconds 
-  Import took 0.011297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_64.asset
-  artifactKey: Guid(c852f98f973d23f448ea43a02c981734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_64.asset using Guid(c852f98f973d23f448ea43a02c981734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a5e5df464921d88f79818de576f884') in 0.008193 seconds 
-  Import took 0.011252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_96.asset
-  artifactKey: Guid(59f81f9ee6737634596c969a24197ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_96.asset using Guid(59f81f9ee6737634596c969a24197ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e89e6b0c6f88bc51a6c36f845027ee3') in 0.007723 seconds 
-  Import took 0.010827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_46.asset
-  artifactKey: Guid(a7b654eef567ec549b5ab4a848e938eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_46.asset using Guid(a7b654eef567ec549b5ab4a848e938eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2331b10f114e3196ebd65f6ec9f2a49') in 0.007872 seconds 
-  Import took 0.011022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_60.asset
-  artifactKey: Guid(d3756d65ae719ba42b6d88ce6c696525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_60.asset using Guid(d3756d65ae719ba42b6d88ce6c696525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ff811179f802ac2a6b3a9ca34858f1') in 0.007802 seconds 
-  Import took 0.010572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_43.asset
-  artifactKey: Guid(bc65d8a66da87c14d825e53248ba2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_43.asset using Guid(bc65d8a66da87c14d825e53248ba2249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60d07aa5d48981867687130315dc72b') in 0.007571 seconds 
-  Import took 0.010619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_111.asset
-  artifactKey: Guid(e2fd0f4f3a235294da30a803d7f51dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_111.asset using Guid(e2fd0f4f3a235294da30a803d7f51dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40929e29baca59cd6a476eb043b81161') in 0.007968 seconds 
-  Import took 0.011171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_6.asset
-  artifactKey: Guid(53fcfa6b4ff32f147abc5aeada656ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_6.asset using Guid(53fcfa6b4ff32f147abc5aeada656ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d795abca12ce6e60a03614f41aac571') in 0.007819 seconds 
-  Import took 0.010690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_47.asset
-  artifactKey: Guid(69a3c5d47fe4b35459a204fa1333d6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_47.asset using Guid(69a3c5d47fe4b35459a204fa1333d6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331084b041de601a41edc583de2321e6') in 0.007499 seconds 
-  Import took 0.010591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_52.asset
-  artifactKey: Guid(caa974aac7f4f1d4bbac3864b0458fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_52.asset using Guid(caa974aac7f4f1d4bbac3864b0458fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f7573aef9afd949eb8a371886a60cd') in 0.008382 seconds 
-  Import took 0.012370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_25.asset
-  artifactKey: Guid(e6b61ea3fac7da94eadc5961ee9850f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_25.asset using Guid(e6b61ea3fac7da94eadc5961ee9850f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6d114e50408d770cc09391c9f2f44b') in 0.007542 seconds 
-  Import took 0.010671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_84.asset
-  artifactKey: Guid(85e7107b5ff64ad4e85583f84b44368e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_84.asset using Guid(85e7107b5ff64ad4e85583f84b44368e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc369e7c24f8b874e367ccd69bfb17e') in 0.007821 seconds 
-  Import took 0.010921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_21.asset
-  artifactKey: Guid(eda44b452287a00439b7a10d0f91135e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_21.asset using Guid(eda44b452287a00439b7a10d0f91135e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465dc3c8dcff0f2a637b31721144bf84') in 0.007817 seconds 
-  Import took 0.010874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_26.asset
-  artifactKey: Guid(1c200006905d0e44fa47d1fa2ce0b981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_26.asset using Guid(1c200006905d0e44fa47d1fa2ce0b981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ecadfa6c1572c491773bb09d629d2a') in 0.007913 seconds 
-  Import took 0.011266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_50.asset
-  artifactKey: Guid(a337a504d36a09a44b055f313ee6bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_50.asset using Guid(a337a504d36a09a44b055f313ee6bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d8e1a70160bda4af8b63f457febf6a') in 0.008687 seconds 
-  Import took 0.011390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_87.asset
-  artifactKey: Guid(49e9517281976d4478f50671b815d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_87.asset using Guid(49e9517281976d4478f50671b815d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27af9ccc01d98864dd994d9279b6977') in 0.008397 seconds 
-  Import took 0.011280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_98.asset
-  artifactKey: Guid(913375e7eb3f9d04ea48d8e6f98734be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_98.asset using Guid(913375e7eb3f9d04ea48d8e6f98734be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ae690d093015b9ad5a5fcc860fd159') in 0.007393 seconds 
-  Import took 0.010352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_19.asset
-  artifactKey: Guid(513324164129c924096031df54037a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_19.asset using Guid(513324164129c924096031df54037a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9951b0f3af65b684e7de9ee0825ec51e') in 0.007259 seconds 
-  Import took 0.010867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_7.asset
-  artifactKey: Guid(f71f7ffd88f15d241b0dff74ac54aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_7.asset using Guid(f71f7ffd88f15d241b0dff74ac54aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8c2b17b05a50d56c3ed2d41f4bf161') in 0.007766 seconds 
-  Import took 0.011003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_54.asset
-  artifactKey: Guid(35ac98a65dc993443a4b36e512deca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_54.asset using Guid(35ac98a65dc993443a4b36e512deca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbf30a8ea972d379f9a1f2599afc151') in 0.008445 seconds 
-  Import took 0.011181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_34.asset
-  artifactKey: Guid(85b694f65aaa8b847a2ff5a2a362c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_34.asset using Guid(85b694f65aaa8b847a2ff5a2a362c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b9c488d86a64450abaed50264c98a3') in 0.007669 seconds 
-  Import took 0.010653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_62.asset
-  artifactKey: Guid(879c36bbf190463428b7e6f10dfea6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_62.asset using Guid(879c36bbf190463428b7e6f10dfea6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6401677383754d425f160686effbba0b') in 0.007989 seconds 
-  Import took 0.010873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_97.asset
-  artifactKey: Guid(fdb8649e1e1258e4e9a699ff10dbf088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_97.asset using Guid(fdb8649e1e1258e4e9a699ff10dbf088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0432667b0fe037bfe0f18161add4d5b4') in 0.007144 seconds 
-  Import took 0.009844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_101.asset
-  artifactKey: Guid(b0ef9fb462b5f9d44a49a9fbc6ea1056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_101.asset using Guid(b0ef9fb462b5f9d44a49a9fbc6ea1056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f230fedf01f391b5a00adb2140f38f') in 0.007415 seconds 
-  Import took 0.010033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_45.asset
-  artifactKey: Guid(fe807469c3219e74fbd1277c39cd745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_45.asset using Guid(fe807469c3219e74fbd1277c39cd745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac893d435d9145fe2494366f926f052') in 0.008419 seconds 
-  Import took 0.011546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_91.asset
-  artifactKey: Guid(274fad3fcd0726242a98122acee24dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_91.asset using Guid(274fad3fcd0726242a98122acee24dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520905208a597a389bf01d90a71c41ec') in 0.008307 seconds 
-  Import took 0.011471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_39.asset
-  artifactKey: Guid(8d08f0c5bf56592498c7939c9e87e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_39.asset using Guid(8d08f0c5bf56592498c7939c9e87e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b2f337f097ff11011f42aa63b834fa') in 0.007435 seconds 
-  Import took 0.011113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_105.asset
-  artifactKey: Guid(95756280955401d4b97fcf79379d9950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_105.asset using Guid(95756280955401d4b97fcf79379d9950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0cd2887d0f67c53a71bd856ae180b7') in 0.007227 seconds 
-  Import took 0.010297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_75.asset
-  artifactKey: Guid(bbb0a6687dd438b459674de1cd78abb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_75.asset using Guid(bbb0a6687dd438b459674de1cd78abb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d022a84cd0d1c94d1ec7e9b9e9e189e') in 0.007868 seconds 
-  Import took 0.011183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_100.asset
-  artifactKey: Guid(feafa50eef022b542947b280ac9d850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_100.asset using Guid(feafa50eef022b542947b280ac9d850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5e5f998d283c370cbe598f33fa4622') in 0.007826 seconds 
-  Import took 0.010914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_8.asset
-  artifactKey: Guid(cd38e6cb0a6cc9f4992b644d7f9ae88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_8.asset using Guid(cd38e6cb0a6cc9f4992b644d7f9ae88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c66b693e2be29d609d0fec332e482f') in 0.008216 seconds 
-  Import took 0.011295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_80.asset
-  artifactKey: Guid(f504566b0c8a32e46ab949add02377f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_80.asset using Guid(f504566b0c8a32e46ab949add02377f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eb8695a024eac755ae9df5ab70f559') in 0.009223 seconds 
-  Import took 0.012218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_58.asset
-  artifactKey: Guid(3438c4ae863e22e4d81396a6c32306c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_58.asset using Guid(3438c4ae863e22e4d81396a6c32306c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c17273f96be7eb04c54c124be4b67f') in 0.008261 seconds 
-  Import took 0.011152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_23.asset
-  artifactKey: Guid(d6de9c1f404a0164383ae000405584a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_23.asset using Guid(d6de9c1f404a0164383ae000405584a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b6916b45e83a33106583317528f07a') in 0.007324 seconds 
-  Import took 0.010701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_49.asset
-  artifactKey: Guid(c262ae2379e52fc499c9de2053d666c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_49.asset using Guid(c262ae2379e52fc499c9de2053d666c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db81441e90d46ca65b60866bf36d46b6') in 0.008343 seconds 
-  Import took 0.011209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_3.asset
-  artifactKey: Guid(b6e3bd807a63acb4aa36a35c111c9128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_3.asset using Guid(b6e3bd807a63acb4aa36a35c111c9128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fcf76fc627a92b899ba8e1f305da10') in 0.007426 seconds 
-  Import took 0.010945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_12.asset
-  artifactKey: Guid(cdd12fe0f46281141b99fbbe5d43d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_12.asset using Guid(cdd12fe0f46281141b99fbbe5d43d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4084ee1c77bdb511549d9ea9fa1d76') in 0.007282 seconds 
-  Import took 0.010289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_81.asset
-  artifactKey: Guid(67e702672d030f04eb2fba540bafa296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_81.asset using Guid(67e702672d030f04eb2fba540bafa296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b0f0136fc511f8ed488e6c5ef29c7f') in 0.008128 seconds 
-  Import took 0.010875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_27.asset
-  artifactKey: Guid(3b7714f859a83e840a69a95a94e693ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_27.asset using Guid(3b7714f859a83e840a69a95a94e693ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b4486a3d2eb409e45b3ff7485e57a8') in 0.007371 seconds 
-  Import took 0.010588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_78.asset
-  artifactKey: Guid(f742e2ea45caf3b42b1790202e7aa77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_78.asset using Guid(f742e2ea45caf3b42b1790202e7aa77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f8a268caa0454e4004baa21a19dfd7') in 0.007223 seconds 
-  Import took 0.010228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_108.asset
-  artifactKey: Guid(6d391462e80180344a0042654f456894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_108.asset using Guid(6d391462e80180344a0042654f456894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f826766af041ad7b0fc97cdf53f4d9') in 0.007897 seconds 
-  Import took 0.010783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_104.asset
-  artifactKey: Guid(1fdb02b6508a83248aae3d7da66d679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_104.asset using Guid(1fdb02b6508a83248aae3d7da66d679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e27f70402ccbd8983ec9a38e922c1a') in 0.007589 seconds 
-  Import took 0.010855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_90.asset
-  artifactKey: Guid(ea7ca13195aff3e4eb00185542ec7f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_90.asset using Guid(ea7ca13195aff3e4eb00185542ec7f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fced07ddf9b1d59b3d6438c2599575bc') in 0.007742 seconds 
-  Import took 0.010739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_10.asset
-  artifactKey: Guid(8238ababfc329804ba6ff43ab2d79227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_10.asset using Guid(8238ababfc329804ba6ff43ab2d79227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dcb2db4c3b95c6acdd6356f5e6788a') in 0.008894 seconds 
-  Import took 0.011848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_83.asset
-  artifactKey: Guid(8be2dc3690c67b34690b38608c693eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_83.asset using Guid(8be2dc3690c67b34690b38608c693eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2183b93869e582b5ba8f1a057260ce') in 0.008127 seconds 
-  Import took 0.011446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/RPGW_Caves/Sliced/Tilemap/decorative_61.asset
-  artifactKey: Guid(989411c6a663c464483f42bd3bf72fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Tilemap/decorative_61.asset using Guid(989411c6a663c464483f42bd3bf72fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81908540efb3105ff237413d29562f45') in 0.007784 seconds 
-  Import took 0.010558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.615544 seconds.
-  path: Assets/Modern tiles_Free/Characters_free/Amelia_16x16.png
-  artifactKey: Guid(9192d3a12640c6040bd4bce5953339c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Amelia_16x16.png using Guid(9192d3a12640c6040bd4bce5953339c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4ba3db6ea7a2c666b5220dd11f0a51') in 0.008319 seconds 
-  Import took 0.011999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 298.361434 seconds.
-  path: Assets/Modern tiles_Free/Characters_free/Alex_sit_16x16 1.png
-  artifactKey: Guid(dfbffc935aad94a7fb48cc7b8d1afdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Alex_sit_16x16 1.png using Guid(dfbffc935aad94a7fb48cc7b8d1afdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f51a6135879a9c3b6f2f24ad6dd788d') in 0.010859 seconds 
-  Import took 0.013963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.376876 seconds.
-  path: Assets/Modern tiles_Free/Characters_free/Amelia_16x16 1.png
-  artifactKey: Guid(30cd50cefb79f448d97e1366a984defe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Amelia_16x16 1.png using Guid(30cd50cefb79f448d97e1366a984defe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d362bab3afe246cef49c02528517d7f') in 0.006949 seconds 
-  Import took 0.010094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.797100 seconds.
-  path: Assets/Modern tiles_Free/Characters_free/Amelia_16x16 1.png
-  artifactKey: Guid(30cd50cefb79f448d97e1366a984defe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Amelia_16x16 1.png using Guid(30cd50cefb79f448d97e1366a984defe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e51c46874380037c519b6c47b16b62') in 0.220077 seconds 
-  Import took 0.223838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.447163 seconds.
-  path: Assets/Modern tiles_Free/Characters_free/Amelia_16x16.png
-  artifactKey: Guid(9192d3a12640c6040bd4bce5953339c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Characters_free/Amelia_16x16.png using Guid(9192d3a12640c6040bd4bce5953339c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1884e477bfc072408037b397b73f387b') in 0.117630 seconds 
-  Import took 0.121779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 475.112718 seconds.
-  path: Assets/Animation/Front.anim
-  artifactKey: Guid(01edbb11186654ddea6dac850509ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Front.anim using Guid(01edbb11186654ddea6dac850509ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1257f89adff92aa91465fa1bdae49aa') in 0.005508 seconds 
-  Import took 0.008873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 620.559622 seconds.
-  path: Assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png
-  artifactKey: Guid(88e0347c08bd2ab45963f4a5eb032814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png using Guid(88e0347c08bd2ab45963f4a5eb032814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e9c78ba7b9dd347bdf447e37fa781e') in 0.011175 seconds 
-  Import took 0.015011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Modern tiles_Free/Interiors_free/48x48/Room_Builder_free_48x48.png
-  artifactKey: Guid(9acfcc9a5e7f2ca4caaae7f46bfd63a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern tiles_Free/Interiors_free/48x48/Room_Builder_free_48x48.png using Guid(9acfcc9a5e7f2ca4caaae7f46bfd63a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acb2a48d4c99b4b25e314b12eac2c02') in 0.012966 seconds 
-  Import took 0.015909 seconds .
-
+  Time since last request: 81.845091 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b43332a11cbf8facc3b338581d28e79') in 0.024357 seconds 
+  Import took 0.040997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.328201 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5ba81dec53ac091d805ca4140557ec') in 0.005928 seconds 
+  Import took 0.014866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.351311 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95147cb34f57a916eed7de5a25f289b6') in 0.006314 seconds 
+  Import took 0.013654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.371147 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ada5cf466ea23ca53e262aa7dddc8a') in 0.007209 seconds 
+  Import took 0.014497 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1927ms)
+		BeginReloadAssembly (582ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (96ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (231ms)
+		EndReloadAssembly (1225ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2791.
+Total: 11.281500 ms (FindLiveObjects: 0.810800 ms CreateObjectMapping: 0.140200 ms MarkObjects: 9.661200 ms  DeleteObjects: 0.665500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 298.433366 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(1266ab7e015a9bd4481ae1fc1bbb4b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf7a8716c746380f55b7357aeb8fa00') in 0.011946 seconds 
+  Import took 0.018210 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.501 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2793.
+Total: 4.162900 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.089900 ms MarkObjects: 3.688400 ms  DeleteObjects: 0.144100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1460ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1171ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (458ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2795.
+Total: 4.922800 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.088200 ms MarkObjects: 4.403700 ms  DeleteObjects: 0.145300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1509ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2797.
+Total: 4.252900 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.129200 ms MarkObjects: 3.740500 ms  DeleteObjects: 0.142400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.446 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1447ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2799.
+Total: 4.891400 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.104600 ms MarkObjects: 4.314300 ms  DeleteObjects: 0.206300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1530ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1211ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2801.
+Total: 4.007400 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.090700 ms MarkObjects: 3.559100 ms  DeleteObjects: 0.155300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
