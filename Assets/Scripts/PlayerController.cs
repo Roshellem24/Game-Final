@@ -66,4 +66,9 @@ public class PlayerController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
     }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        Debug.Log("Trigger");
+    }
 }
