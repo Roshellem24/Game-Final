@@ -2,41 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class NPC : MonoBehaviour
 {
     public GameObject dialoguePanel;
-    public Text dialogueText;
+    public TextMeshProUGUI dialogueText;
     public string[] dialogue;
-    private int index;
+    private int index = 0;
 
-    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
+
+
+    void Start()
+    {
+        dialogueText.text = "";
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            if (dialoguePanel.activeInHierarchy)
-            {
-                zeroText();
-            }
-            else
+            if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
+            else if (dialogueText.text == dialogue[index])
+            {
+                NextLine();
+            }
+
         }
-        if (dialogueText.text == dialogue[index])
+        if (Input.GetKeyDown(KeyCode.Q) && dialoguePanel.activeInHierarchy)
         {
-            contButton.SetActive(true);
+            RemoveText();
         }
     }
 
-
-    public void zeroText()
+    public void RemoveText()
     {
         dialogueText.text = "";
         index = 0;
@@ -45,7 +51,7 @@ public class NPC : MonoBehaviour
 
     IEnumerator Typing()
     {
-        foreach(char letter in dialogue[index].ToCharArray())
+        foreach (char letter in dialogue[index].ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
@@ -54,9 +60,7 @@ public class NPC : MonoBehaviour
 
     public void NextLine()
     {
-        contButton.SetActive(false);
-
-        if(index < dialogue.Length - 1)
+        if (index < dialogue.Length - 1)
         {
             index++;
             dialogueText.text = "";
@@ -64,7 +68,7 @@ public class NPC : MonoBehaviour
         }
         else
         {
-            zeroText();
+            RemoveText();
         }
     }
 
@@ -78,11 +82,10 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             playerIsClose = false;
-            zeroText();
+            RemoveText();
         }
     }
-
 }
