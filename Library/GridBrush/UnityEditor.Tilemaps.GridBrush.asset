@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Default Brush
   m_EditorClassIdentifier: 
   m_Cells:
-  - m_Tile: {fileID: 11400000, guid: 55860d5f03b95644481da010d184325f, type: 2}
+  - m_Tile: {fileID: 11400000, guid: 3a6d85e6e57a64646b30554c72140791, type: 2}
     m_Matrix:
       e00: 1
       e01: 0
@@ -32,102 +32,7 @@ MonoBehaviour:
       e32: 0
       e33: 1
     m_Color: {r: 1, g: 1, b: 1, a: 1}
-  - m_Tile: {fileID: 11400000, guid: b9d0186d6c3551b498a0f065b1df3991, type: 2}
-    m_Matrix:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_Color: {r: 1, g: 1, b: 1, a: 1}
-  - m_Tile: {fileID: 11400000, guid: a41b6ea0b28ac5f459b04660cb784d26, type: 2}
-    m_Matrix:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_Color: {r: 1, g: 1, b: 1, a: 1}
-  - m_Tile: {fileID: 11400000, guid: d5cc8c9eea18c9f428f8f3f00f1f7857, type: 2}
-    m_Matrix:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_Color: {r: 1, g: 1, b: 1, a: 1}
-  - m_Tile: {fileID: 11400000, guid: d922b46d71ad5af418899558e1637d0b, type: 2}
-    m_Matrix:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_Color: {r: 1, g: 1, b: 1, a: 1}
-  - m_Tile: {fileID: 11400000, guid: b8404b20466f99743b6ebd4a771a87d0, type: 2}
-    m_Matrix:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Size: {x: 2, y: 3, z: 1}
-  m_Pivot: {x: 1, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_CanChangeZPosition: 0
   m_FloodFillContiguousOnly: 1
